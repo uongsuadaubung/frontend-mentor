@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Figtree", sans-serif;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+}
+main article {
+  border: 1px solid black;
+  box-shadow: 4px 4px;
+  width: 384px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+}
+main article.active {
+  box-shadow: 6px 6px;
+}
+main article figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+main article .card-body {
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+main article .card-body .category {
+  background-color: hsl(47, 88%, 63%);
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+main article .card-body time {
+  display: block;
+  margin-bottom: 12px;
+}
+main article .card-body h2 {
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+main article .card-body p {
+  color: hsl(0, 0%, 50%);
+}
+main article .author {
+  display: flex;
+  align-items: center;
+}
+main article .author img {
+  width: 32px;
+  height: 32px;
+}
+main article .author .author-name {
+  padding-left: 12px;
+  font-weight: 800;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}

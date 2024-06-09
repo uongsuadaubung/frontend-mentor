@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+body main .container {
+  margin-top: 60px;
+  background-color: hsl(0, 0%, 100%);
+  width: 500px;
+  padding: 24px;
+  border-radius: 20px;
+}
+body main .container figure {
+  margin-bottom: 12px;
+}
+body main .container figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+body main .container .simple {
+  margin-bottom: 12px;
+}
+body main .container .simple h1 {
+  font-family: "Young Serif", serif;
+  font-size: 32px;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 12px;
+}
+body main .container .simple p {
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+body main .container .simple .list {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px 20px 0;
+  border-radius: 10px;
+}
+body main .container .simple .list h3 {
+  color: hsl(332, 51%, 32%);
+}
+body main .container .simple .list ul {
+  padding: 20px;
+}
+body main .container .simple .list ul li {
+  margin-bottom: 12px;
+}
+body main .container .ingredients h2 {
+  font-family: "Figtree", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+body main .container .ingredients ul {
+  padding: 20px;
+  color: hsl(24, 5%, 18%);
+}
+body main .container .ingredients ul li {
+  margin-bottom: 12px;
+}
+body main .container .instructions h2 {
+  font-family: "Figtree", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+body main .container .instructions ol {
+  padding: 20px;
+  color: hsl(24, 5%, 18%);
+}
+body main .container .instructions ol li {
+  margin-bottom: 12px;
+}
+body main .container .instructions ol li .bold {
+  font-weight: 700;
+}
+body main .container .nutrition h2 {
+  font-family: "Figtree", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+body main .container .nutrition p {
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+body main .container .nutrition table {
+  width: 100%;
+}
+body main .container .nutrition table tr td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 10px;
+}
+body main .container .nutrition table tr td:last-child {
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+}
+body main .container .nutrition table tr:last-child td {
+  border-bottom: none;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
