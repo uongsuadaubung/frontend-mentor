@@ -23,7 +23,7 @@ main article {
   border-radius: 20px;
   padding: 24px;
 }
-main article.active {
+main article:hover {
   box-shadow: 6px 6px;
 }
 main article figure img {
